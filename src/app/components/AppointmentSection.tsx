@@ -40,14 +40,14 @@ export function AppointmentSection() {
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // Open WhatsApp with the formatted message
-    window.open(`https://wa.me/1234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/9325834405?text=${encodedMessage}`, '_blank');
     
     // Clear the form
     setFormData({ name: '', phone: '', email: '', date: '', message: '' });
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/1234567890?text=Hi, I would like to book an appointment', '_blank');
+    window.open('https://wa.me/9325834405?text=Hi, I would like to book an appointment', '_blank');
   };
 
   return (
